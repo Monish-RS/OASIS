@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+    <title>Tribute Page</title>
+    <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Times, serif;
+    color: white;
+    background-color: black;
+    }
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+    }
+.header > .title {
+    margin-bottom: 1rem;
+}
+.tribute {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width:100%;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 50   rem;
+}
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio > hr{
+    margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+<header class="header">
+    <h1 class="title">A.P.J.Abdul Kalam</h1>
+    <p class="description">October 1931-July 2015</p>
+</header>
+<section class="tribute">
+<blockquote>
+
+            “Failure will never overtake me if my determination to succeed is strong enough.”
+</blockquote>
+<img src="APJ.jpg"APJ>
+</section>
+<section class="bio">
+        <h2>Biography</h2>
+        <p>Avul Pakir Jainulabdeen Abdul Kalam, widely known as APJ Abdul Kalam, was an eminent Indian scientist and politician who served as the 11th President of India from 2002 to 2007. Born on October 15, 1931, in Rameswaram, Tamil Nadu, Kalam emerged from humble beginnings to become a pioneer in aerospace engineering. He played a crucial role in India's space and missile development programs, earning him the moniker "Missile Man of India." Kalam was instrumental in the development of India's first indigenous satellite launch vehicle and ballistic missile technology. He received numerous awards and honors, including the Bharat Ratna, India's highest civilian award, for his contributions to science and technology. Beyond his scientific achievements, Kalam was known for his humility, vision, and commitment to education, especially among India's youth. He passed away on July 27, 2015, leaving behind a legacy of inspiration and innovation.</p>
+</body>
+</html>
 
